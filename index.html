@@ -186,7 +186,7 @@
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit delectus, perspiciatis sapiente debitis totam natus dolorem maiores commodi vel placeat reprehenderit dignissimos, rerum hic veritatis aperiam fugiat quia ab atque?
         </p>
-        <form>
+        <!-- <form>
             <div class="form-group text-left">
                 <label class="font-weight-bold display-5" for="name">Nombre</label>
                 <input type="text" class="form-control" id="name1" placeholder="Nombre" />
@@ -202,7 +202,25 @@
             <div class="text-right">
                 <button type="submit" class="btn btn-info">Enviar</button>
             </div>
-        </form>
+        </form> -->
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/Z9i225lg?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
+        <script>
+            (function() {
+                var qs, js, q, s, d = document,
+                    gi = d.getElementById,
+                    ce = d.createElement,
+                    gt = d.getElementsByTagName,
+                    id = "typef_orm",
+                    b = "https://embed.typeform.com/";
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+            })()
+        </script>
     </section>
 
     <footer class="text-center black text-light p-3">
